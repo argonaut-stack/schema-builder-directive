@@ -1,14 +1,14 @@
 {
   "name": "schema-builder-directive",
-  "version": "0.0.1",
   "description": "The base schema builder directive of the argonaut stack!",
   "main": "dist/argonaut.schemabuilder.directive.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/argonaut-stack/schema-builder-directive.git"
+    "url": "https://github.com/argonaut-stack/schema-builder-directive.git"
   },
   "keywords": [
     "argonaut"
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/argonaut-stack/schema-builder-directive#readme",
   "devDependencies": {
     "commitizen": "^2.3.0",
-    "cz-conventional-changelog": "^1.1.4"
+    "cz-conventional-changelog": "^1.1.4",
+    "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {

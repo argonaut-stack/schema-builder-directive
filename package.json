@@ -3,7 +3,7 @@
   "description": "The base schema builder directive of the argonaut stack!",
   "main": "dist/argonaut.schemabuilder.directive.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start --single-run",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -22,6 +22,9 @@
   "devDependencies": {
     "commitizen": "^2.3.0",
     "cz-conventional-changelog": "^1.1.4",
+    "karma": "^0.13.14",
+    "karma-mocha": "^0.2.0",
+    "mocha": "^2.3.3",
     "semantic-release": "^4.3.5"
   },
   "config": {

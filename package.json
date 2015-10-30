@@ -22,9 +22,11 @@
   "devDependencies": {
     "commitizen": "^2.3.0",
     "cz-conventional-changelog": "^1.1.4",
+    "gulp": "^3.9.0",
     "karma": "^0.13.14",
     "karma-mocha": "^0.2.0",
     "mocha": "^2.3.3",
+    "require-dir": "^0.3.0",
     "semantic-release": "^4.3.5"
   },
   "config": {
